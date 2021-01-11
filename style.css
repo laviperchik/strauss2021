@@ -1,6 +1,7 @@
 body {
   font-family: 'Assistant', sans-serif;
-  
+  line-height: 1.5;
+  margin: 0;
 }
 
 img {
@@ -16,12 +17,18 @@ img {
   background: url(img/image.jpg) center;
   background-size: cover;
   color: #fff;
-  padding: 40px;
+  padding: 80px;
   text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.about .container {
+  max-width: 720px;
 }
 .contact {
   background: #e0d9d0;
   padding: 40px;
+  font-size: 24px;
   text-align: center;
 }
 h1, h2, h3, .logo {
@@ -30,6 +37,11 @@ h1, h2, h3, .logo {
 }
 h1 {
   font-size: 40px;
+/*  border-bottom: 5px solid #fff;*/
+/*
+  margin: auto;
+  display: table;
+*/
 }
 h2 {
   font-size: 36px;
