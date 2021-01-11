@@ -1,26 +1,6 @@
 body {
-  font-family: 'Assistant', arial, sans-serif;
-  font-size: 18px;
-  background: #000;
-  color: #fff;
-}
-
-h1 {
-  /*  color: brown;*/
-  /*  font-weight: 200;*/
-  /*  font-size: 2.5em;*/
-  margin: 0;
-  color: #d06153;
-}
-
-h2 {
-  border-bottom: 1px solid #d2994d;
-  color: #e5d3a8;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
+  font-family: 'Assistant', sans-serif;
+  
 }
 
 img {
@@ -28,27 +8,38 @@ img {
   width: auto;
   height: auto;
 }
-
-/*
-.aligncenter {
-  max-width: 50%;
-  display: block;
+.container {
+  max-width: 900px;
   margin: auto;
 }
-*/
-a {
-  color: #cc944a;
+.about {
+  background: url(img/image.jpg) center;
+  background-size: cover;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  align-items: center;
+.contact {
+  background: #e0d9d0;
+  padding: 40px;
+  text-align: center;
 }
-
-@media (max-width: 700px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+h1, h2, h3, .logo {
+  font-family: 'Secular One', sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 36px;
+}
+.logo {
+  font-size: 24px;
+  margin: auto;
+  display: table;
+}
+.logo img {
+  display: block;
+  margin: auto;
 }
